@@ -2,7 +2,6 @@ import asyncio
 from playwright.async_api import async_playwright
 from bs4 import BeautifulSoup
 import csv
-from io import StringIO
 from datetime import datetime
 
 async def scrape_fabric_menu():
